@@ -1,0 +1,6 @@
+.title test
+* file test.cir may or may not be correct.
+VDD VDD 0 5
+R1 VDD X 1k
+R2 X 0 2k
+.end
