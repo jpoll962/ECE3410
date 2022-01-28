@@ -46,7 +46,7 @@ number. Record a list of components and other parts for each experiment.
 ### Appendix B: List of Components/Other Parts
 | Components anand Materials | Description |
 | -------------------------- | ----------- |
-| 10 k \omega | Title |
+| 10 k \Omega | Title |
 | Paragraph | Text | 
 
 ## Things to include in the Report
