@@ -44,10 +44,17 @@ number. Record a list of components and other parts for each experiment.
 | Paragraph | Text | 
 
 ### Appendix B: List of Components/Other Parts
-| Components anand Materials | Description |
-| -------------------------- | ----------- |
-| 10 k&Omega; | Title |
-| Paragraph | Text | 
+| Components and Materials | Description |
+| ------------------------ | ----------- |
+| Resistors: | 10 k&Omega; (1) |
+|  | 1k&Omega; (1) |
+| Capacitor: | 1 nF (1) |
+| Breadboard | Solderless Breadboard (1) |
 
 ## Things to include in the Report
 1. Draw/reproduce complete schematic diagrams for all circuits used in the experiment.
+
+| Symbols | Markdown Code |
+| ------- | ------------- |
+| Ohm (Uppercase Omega) | &Omega; |
+| Lowercase Omega | &omega; |
