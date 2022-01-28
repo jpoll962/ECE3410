@@ -36,12 +36,15 @@ should not be over-burdened with minutia. The report should communicate knowledg
 go at the end for the reader’s reference. Record careful tables of numerical results. Always record units and precision for experimental measurements.
 
 ### Appendix A: List of Equipment
-All equipment used for the experiment should be recorded in the lab book. Record the manufacturer and model
-number. Record a list of components and other parts for each experiment.
 | Equipment | Description |
-| ---------- | :---------: |
-| Header | Title |
-| Paragraph | Text | 
+| ------------------ | :---------------------------: |
+| Digital Multimeter | manufacturer and model number |
+| Oscilloscope | manufacturer and model number | 
+| Oscilloscope Probe | manufacturer and model number |
+| Function Generator | manufacturer and model number |
+| Banana-to-alligator Cables | manufacturer and model number |
+| BNC-to-BNC Cables | manufacturer and model number |
+| BNC-to-Alligator Cables | manufacturer and model number |
 
 ### Appendix B: List of Components and Materials
 | Components and Materials | Description |
