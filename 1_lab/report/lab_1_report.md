@@ -39,22 +39,22 @@ go at the end for the reader’s reference. Record careful tables of numerical r
 All equipment used for the experiment should be recorded in the lab book. Record the manufacturer and model
 number. Record a list of components and other parts for each experiment.
 | Equipment | Description |
-| ----------- | ----------- |
+| ---------- | :---------: |
 | Header | Title |
 | Paragraph | Text | 
 
-### Appendix B: List of Components/Other Parts
+### Appendix B: List of Components and Materials
 | Components and Materials | Description |
-| ------------------------ | ----------- |
-| Resistors: | 10 k&Omega; (1) |
+| ------------------------ | :---------: |
+| Resistor(s): | 10 k&Omega; (1) |
 |  | 1k&Omega; (1) |
-| Capacitor: | 1 nF (1) |
+| Capacitor(s): | 1 nF (1) |
 | Breadboard | Solderless Breadboard (1) |
 
 ## Things to include in the Report
 1. Draw/reproduce complete schematic diagrams for all circuits used in the experiment.
 
 | Symbols | Markdown Code |
-| ------- | ------------- |
+| ------- | :-----------: |
 | Ohm (Uppercase Omega) | &Omega; |
 | Lowercase Omega | &omega; |

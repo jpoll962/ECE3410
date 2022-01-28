@@ -35,16 +35,16 @@ If you need to include data tables in the report, place them in an appendix at t
 should not be over-burdened with minutia. The report should communicate knowledge and insights. The minutia can
 go at the end for the reader’s reference. Record careful tables of numerical results. Always record units and precision for experimental measurements.
 
-### Appendix A: List of Equipment and Components/Other Parts
+### Appendix A: List of Equipment and Components
 All equipment used for the experiment should be recorded in the lab book. Record the manufacturer and model
 number. Record a list of components and other parts for each experiment.
 
-### Appendix B: List of Components/Other Parts
+### Appendix B: List of Components and Materials
 
 ## Things to include in the Report
 1. Draw/reproduce complete schematic diagrams for all circuits used in the experiment.
 
 | Symbols | Markdown Code |
-| ------- | ------------- |
+| ------- | :-----------: |
 | Ohm (Uppercase Omega) | &Omega; |
 | Lowercase Omega | &omega; |
