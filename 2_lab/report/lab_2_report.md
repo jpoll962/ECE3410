@@ -1,4 +1,4 @@
-# Lab 1
+# Lab 2
 ## Introduction
 Begin with an abstract describing the experimental objectives and procedures. All writing should be in thirdperson,
 professional style. A lab report should begin with a short introductory section (one or two paragraphs) that describes the general activities
@@ -35,19 +35,11 @@ If you need to include data tables in the report, place them in an appendix at t
 should not be over-burdened with minutia. The report should communicate knowledge and insights. The minutia can
 go at the end for the reader’s reference. Record careful tables of numerical results. Always record units and precision for experimental measurements.
 
-### Appendix A: List of Equipment
+### Appendix A: List of Equipment and Components/Other Parts
 All equipment used for the experiment should be recorded in the lab book. Record the manufacturer and model
 number. Record a list of components and other parts for each experiment.
-| Equipment | Description |
-| ----------- | ----------- |
-| Header | Title |
-| Paragraph | Text | 
 
 ### Appendix B: List of Components/Other Parts
-| Components anand Materials | Description |
-| -------------------------- | ----------- |
-| 10 k \omega | Title |
-| Paragraph | Text | 
 
 ## Things to include in the Report
 1. Draw/reproduce complete schematic diagrams for all circuits used in the experiment.
