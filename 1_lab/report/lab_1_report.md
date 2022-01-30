@@ -1,11 +1,18 @@
 # Lab 1
 ## Introduction
-Begin with an abstract describing the experimental objectives and procedures. All writing should be in thirdperson,
-professional style. A lab report should begin with a short introductory section (one or two paragraphs) that describes the general activities
-and briefly summarizes findings. In this summary, you should identify the most important or interesting aspects of the
-lab. Try to use objective professional language. For example, do not say “I hooked up X and was supposed to get R
-but when I did Y it didn’t work so I tried Z and then it worked.” Instead, say something like “X was studied using a Z
-configuration, with result R.”
+
+This lab prepares materials needed for the semesters' lab assignments, reviews techniques/procedures required for professional laboratory work, and provides experience using a function generator, power supply, oscilloscope, and multimeter. Each resistor utilized in this lab was analyzed to determine the precise resistance each provided. These measurements demonstrated that each resistor did not contain the exact resistance advertized along the resistors' bodies. Afterward, the function generator was utilized alongside the oscilloscope to demonstrate how the changes in the function generator impact the output displayed on the oscilloscope. The oscilloscope displayed the sine wave and the magnitude spectrum input by the function generator. This measurement process continued throughout the experiment to measure Figure 1.1, Figure 1.2, and Figure 1.3, as seen below.
+
+![Figure 1.1](../pictures/figure_1.1.png)
+**Figure 1.1**
+
+![Figure 1.2](../pictures/figure_1.2.png)
+**Figure 1.2**
+
+![Figure 1.3](../pictures/figure_1.3.png)
+**Figure 1.3**
+
+The Pre-Lab Analysis performed before the experiment aligned with the experiment, aside from slight differences discussed in the body of this report. A Spice simulation was also performed on Figure 1.1, Figure 1.2, and Figure 1.3.
 
 ## Pre-Lab Analysis
 Provide a summary of your pre-lab calculations, focusing specifically on the calculations that affect your experimental
