@@ -1,4 +1,4 @@
-# ECE3410
+# ECE3410 - Table of Contents
 Lab Documentation for ECE3410 - Microelectronics I at Utah State University (USU).
 | Lab | Report | Status |
 | ---------------- | ---------------------------------------------- | :---------: |
