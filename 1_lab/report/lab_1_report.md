@@ -7,18 +7,20 @@ This lab prepares materials needed for the semesters' lab assignments, reviews t
 **Figure 1.1**
 
 ![Figure 1.2](./pictures/figure_1.2.png)  
-**Figure 1.2**
+**Figure 1.2: Low Pass Filter**
 
 ![Figure 1.3](./pictures/figure_1.3.png)  
-**Figure 1.3**
+**Figure 1.3: High Pass Filter**
 
 The Pre-Lab Analysis performed before the experiment aligned with the experiment, aside from slight differences discussed in the body of this report. A Spice simulation was also performed on Figure 1.1, Figure 1.2, and Figure 1.3.
 
 ## Pre-Lab Analysis
-Provide a summary of your pre-lab calculations, focusing specifically on the calculations that affect your experimental
-design. Note that some calculations are purely instructive; only include them in the report if they directly affect your
-experiment. If you performed experiment X and plan to write about it in the report, then you should fully describe any
-pre-lab analysis related to X.
+
+The pre-lab analysis involved calculating the magnitude spectrum of our voltage input in Exercise 1, then utilizing that voltage input for ascertaining an expression for the voltage output for the circuit shown in Figure 1.1, then calculating the 3 dB cutoff frequency of Figure 1.2, and Figure 1.3 in Exercise 3 and Exercise 4. Each exercise maintained the same voltage input.  
+
+The goal of Exercise 1 was to describe the magnitude spectrum of the voltage input using a frequency of 10 kHz. The result of the calculations identified an impulse response at 0 Hz and another impulse response at 10^8^ Hz. The expression identified in Exercise 2 stated a mean voltage of \frac{10}{11} and a peak-to-peak amplitude of \frac{20}{11}.  
+
+In Exercise 3, a Low-Pass Filter (Figure 1.2) was examined to identify the 3 dB cutoff frequency. The calculations determined the 3 dB cutoff frequency was 15.92 kHz. In Exercise 4, a High-Pass Filter (Figure 1.3) was examined to identify the 3 dB cutoff frequency. The calculations determined the 3 dB cutoff frequency was 15.92 kHz.  
 
 ## Simulation Results
 If the lab includes a session with the SPICE simulator, place the results here. Again, you do not need to be exhaustive.
