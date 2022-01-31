@@ -3,17 +3,17 @@
 
 This lab prepares materials needed for the semesters' lab assignments, reviews techniques/procedures required for professional laboratory work, and provides experience using a function generator, power supply, oscilloscope, and multimeter. Each resistor utilized in this lab was analyzed to determine the precise resistance each provided. These measurements demonstrated that each resistor did not contain the exact resistance advertized along the resistors' bodies. Afterward, the function generator was utilized alongside the oscilloscope to demonstrate how the changes in the function generator impact the output displayed on the oscilloscope. The oscilloscope displayed the sine wave and the magnitude spectrum input by the function generator. This measurement process continued throughout the experiment to measure Figure 1.1, Figure 1.2, and Figure 1.3, as seen below.
 
-<div style="text-align: center;">
+<p align="center">
 ![Figure 1.1](./pictures/figure_1.1.png)  
 **Figure 1.1**
-</div>
+</p>
 
-<div style="text-align: center;">
+<div style="center">
 ![Figure 1.2](./pictures/figure_1.2.png)  
 **Figure 1.2: Low Pass Filter**
 </div>
 
-<div style="text-align: center;">
+<div style="center;">
 ![Figure 1.3](./pictures/figure_1.3.png)  
 **Figure 1.3: High Pass Filter**
 </div>
