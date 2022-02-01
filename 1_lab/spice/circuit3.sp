@@ -18,7 +18,7 @@ set units=degrees
 plot vdb(n2)
 plot vp(n2)
 hardcopy magnitude_circuit3.ps vdb(n2)
-hardcopy phase_circuit2.ps vp(n2)
+hardcopy phase_circuit3.ps vp(n2)
 meas ac y1 FIND vdb(n2) AT=1k
 meas ac y2 FIND vdb(n2) AT=10k
 meas ac y3 FIND vdb(n2) AT=50k
