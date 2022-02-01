@@ -67,7 +67,7 @@ In this section, provide a summary and interpretation of your results. If your e
 ![Figure 1.2.2](./pictures/magnitude_circuit2.png)  
 **Figure 1.2.2: Magnitude Spectrum**  
 
-![Figure 1.2.2](./pictures/phase_circuit2.png)  
+![Figure 1.2.3](./pictures/phase_circuit2.png)  
 **Figure 1.2.3: Phase Shift**  
 
 ### Appendix E: Figure 1.3 SPICE Simulation Graphs
@@ -77,5 +77,5 @@ In this section, provide a summary and interpretation of your results. If your e
 ![Figure 1.3.2](./pictures/magnitude_circuit3.png)  
 **Figure 1.3.2: Magnitude Spectrum**  
 
-![Figure 1.3.2](./pictures/phase_circuit3.png)  
+![Figure 1.3.3](./pictures/phase_circuit3.png)  
 **Figure 1.3.3: Phase Shift**  
