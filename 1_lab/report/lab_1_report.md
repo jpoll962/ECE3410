@@ -1,14 +1,14 @@
 # Lab 1  
 ## Introduction  
-This lab prepares materials needed for the semesters' lab assignments, reviews techniques/procedures required for professional laboratory work, and provides experience using a function generator, power supply, oscilloscope, and multimeter. Each resistor utilized in this lab was analyzed to determine the precise resistance each provided. These measurements demonstrated that each resistor did not contain the exact resistance advertized along the resistors' bodies. Afterward, the function generator was utilized alongside the oscilloscope to demonstrate how the changes in the function generator impact the output displayed on the oscilloscope. The oscilloscope displayed the sine wave and the magnitude spectrum input by the function generator. This measurement process continued throughout the experiment to measure Figure 1.1, Figure 1.2, and Figure 1.3, as seen below.
+This lab prepares materials needed for the semesters' lab assignments, reviews techniques/procedures required for professional laboratory work, and provides experience using a function generator, power supply, oscilloscope, and multimeter. Each resistor utilized in this lab was analyzed to determine the precise resistance each provided. These measurements demonstrated that each resistor did not contain the exact resistance advertized along the resistors' bodies. Afterward, the function generator was utilized alongside the oscilloscope to demonstrate how the changes in the function generator impact the output displayed on the oscilloscope. The oscilloscope displayed the sine wave and the magnitude spectrum input by the function generator. This measurement process continued throughout the experiment to measure Figure 1.1, Figure 1.2, and Figure 1.3, as seen below.  
 
-![Figure 1.1](./pictures/figure_1.1.png)  
+<img src="./pictures/figure_1.1.png" alt="Figure 1.1" height="400" width="400"/>  
 **Figure 1.1**  
-
-![Figure 1.2](./pictures/figure_1.2.png)  
+ 
+<img src="./pictures/figure_1.2.png" alt="Figure 1.2" height="400" width="400"/>  
 **Figure 1.2: Low Pass Filter**  
-
-![Figure 1.3](./pictures/figure_1.3.png)  
+  
+<img src="./pictures/figure_1.3.png" alt="Figure 1.3" height="400" width="400"/>  
 **Figure 1.3: High Pass Filter**  
 
 The Pre-Lab Analysis performed before the experiment aligned with the experiment, aside from slight differences discussed in the body of this report. A Spice simulation was also performed on Figure 1.1, Figure 1.2, and Figure 1.3. The list of equipment utilized during this lab can be found in Appendix A at the bottom of this report. The list of components and materials utilized during this lab can be found in Appendix B at the bottom of this report.  
@@ -74,28 +74,28 @@ In this section, provide a summary and interpretation of your results. If your e
 | p3db | 4.491032e+01 degrees |
 
 ### Appendix E: Figure 1.1 SPICE Simulation Graphs  
-<img src="./pictures/circuit1_dc.png" alt="Figure 1.1.1" height="400" width="400"/>
+<img src="./pictures/circuit1_dc.png" alt="Figure 1.1.1" height="400" width="400"/>  
 **Figure 1.1.1: Vout DC Simulation**  
 
-![Figure 1.1.2](./pictures/circuit1_tran.png)  
+<img src="./pictures/circuit1_tran.png" alt="Figure 1.1.2" height="400" width="400"/>  
 **Figure 1.1.2: Vout Transient Simulation**  
 
 ### Appendix F: Figure 1.2 SPICE Simulation Graphs  
-![Figure 1.2.1](./pictures/tran_circuit2.png)  
+<img src="./pictures/tran_circuit2.png" alt="Figure 1.2.1" height="400" width="400"/>  
 **Figure 1.2.1: Vout Transient Simulation**  
 
-![Figure 1.2.2](./pictures/magnitude_circuit2.png)  
+<img src="./pictures/magnitude_circuit2.png" alt="Figure 1.2.2" height="400" width="400"/>  
 **Figure 1.2.2: Magnitude Spectrum**  
 
-![Figure 1.2.3](./pictures/phase_circuit2.png)  
+<img src="./pictures/phase_circuit2.png" alt="Figure 1.2.3" height="400" width="400"/>  
 **Figure 1.2.3: Phase Shift**  
 
 ### Appendix G: Figure 1.3 SPICE Simulation Graphs  
-![Figure 1.3.1](./pictures/tran_circuit3.png)  
+<img src="./pictures/tran_circuit3.png" alt="Figure 1.3.1" height="400" width="400"/>  
 **Figure 1.3.1: Vout Transient Simulation**  
 
-![Figure 1.3.2](./pictures/magnitude_circuit3.png)  
+<img src="./pictures/magnitude_circuit3.png" alt="Figure 1.3.2" height="400" width="400"/>  
 **Figure 1.3.2: Magnitude Spectrum**  
 
-![Figure 1.3.3](./pictures/phase_circuit3.png)  
+<img src="./pictures/phase_circuit3.png" alt="Figure 1.3.3" height="400" width="400"/>  
 **Figure 1.3.3: Phase Shift**  
