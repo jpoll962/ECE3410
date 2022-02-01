@@ -74,7 +74,7 @@ In this section, provide a summary and interpretation of your results. If your e
 | p3db | 4.491032e+01 degrees |
 
 ### Appendix E: Figure 1.1 SPICE Simulation Graphs  
-![Figure 1.1.1](./pictures/circuit1_dc.png){:height=50% width=50%}
+![Figure 1.1.1](./pictures/circuit1_dc.png){width=50%}
 **Figure 1.1.1: Vout DC Simulation**  
 
 ![Figure 1.1.2](./pictures/circuit1_tran.png)  
