@@ -19,23 +19,23 @@ The Pre-Lab Analysis performed before the experiment aligned with the experiment
 ## Pre-Lab Analysis  
 The pre-lab analysis involved calculating the magnitude spectrum of our voltage input in Exercise 1, then utilizing that voltage input for ascertaining an expression for the voltage output for the circuit shown in Figure 1.1, then calculating the 3 dB cutoff frequency of Figure 1.2, and Figure 1.3 in Exercise 3 and Exercise 4. Each exercise maintained the same voltage input.  
 
-The goal of Exercise 1 was to describe the magnitude spectrum of the voltage input using a frequency of 10 kHz. The result of the calculations identified an impulse response at 0 Hz and another impulse response at 10<sup>7</sup> Hz. The expression determined in Exercise 2 identified an offset of `0.90909... V` and a peak-to-peak amplitude of `1.818... V`.  
+The goal of Exercise 1 was to describe the magnitude spectrum of the voltage input using a frequency of 10 kHz. The result of the calculations identified an impulse response at 0 Hz and another impulse response at 10<sup>7</sup> Hz. The expression determined in Exercise 2 identified an offset of 0.90909... V and a peak-to-peak amplitude of 1.818... V.  
 
-In Exercise 3, a Low-Pass Filter (Figure 1.2) was examined to identify the 3 dB cutoff frequency. The calculations determined the 3 dB cutoff frequency was `15.92 kHz`. In Exercise 4, a High-Pass Filter (Figure 1.3) was examined to identify the 3 dB cutoff frequency. The calculations determined the 3 dB cutoff frequency was `15.92 kHz`.  
+In Exercise 3, a Low-Pass Filter (Figure 1.2) was examined to identify the 3 dB cutoff frequency. The calculations determined the 3 dB cutoff frequency was 15.92 kHz. In Exercise 4, a High-Pass Filter (Figure 1.3) was examined to identify the 3 dB cutoff frequency. The calculations determined the 3 dB cutoff frequency was 15.92 kHz.  
 
 ## Simulation Results  
-The SPICE simulations performed for this experiment included plotting the output voltage for Figure 1.1, Figure 1.2, and Figure 1.3. In addition, the SPICE simulation produced a bode plot, phase plot, 3 dB cutoff frequency, and the phase shift for Figure 1.2 and Figure 1.3. As in the pre-lab analysis, the SPICE simulations analyzed the circuits with a 1 V offset and a 2 V amplitude, while testing three different frequencies (1 kHZ, 10 kHZ, and 50 kHz). The magnitude spectrum graph created in the pre-lab included impulse responses in the form of delta functions; the SPICE simulation plots the magnitude spectrum along a continuous line, but both results lead to a phase of `45 degrees` and activity along 0 Hz and 10<sup>7</sup> Hz. These conclusions also match the graphs produced by the oscilloscope during the physical experiment. See the Appendices for the graphs produced from the SPICE simulation.  
+The SPICE simulations performed for this experiment included plotting the output voltage for Figure 1.1, Figure 1.2, and Figure 1.3. In addition, the SPICE simulation produced a bode plot, phase plot, 3 dB cutoff frequency, and the phase shift for Figure 1.2 and Figure 1.3. As in the pre-lab analysis, the SPICE simulations analyzed the circuits with a 1 V offset and a 2 V amplitude, while testing three different frequencies (1 kHZ, 10 kHZ, and 50 kHz). The magnitude spectrum graph created in the pre-lab included impulse responses in the form of delta functions; the SPICE simulation plots the magnitude spectrum along a continuous line, but both results lead to a phase of 45 degrees and activity along 0 Hz and 10<sup>7</sup> Hz. These conclusions also match the graphs produced by the oscilloscope during the physical experiment. See the Appendices for the graphs produced from the SPICE simulation.  
 
-When running NGSpice in the command line for circuit 1 (Figure 1.1), the terminal returns `y = 9.090909e-01` and `vout = vin*0.909091`. This calculation matches the calculations in the prelab analysis of Exercise 2 where the offset was determined to be `0.9090909...`.  
+When running NGSpice in the command line for circuit 1 (Figure 1.1), the terminal returns y = 9.090909e-01 and `vout = vin*0.909091`. This calculation matches the calculations in the prelab analysis of Exercise 2 where the offset was determined to be 0.9090909... V.  
 
 When running NGSpice in the command line for circuit 2 (Figure 1.2), the values returned by the terminal can be found in Appendix C below. These values match directly with the pre-lab analysis results.  
 
 When running NGSpice in the command line for circuit 3 (Figure 1.3), the values returned by the terminal can be found in Appendix D below. These values match directly with the pre-lab analysis results.  
 
 ## Experimental Results  
-During the experiment, the circuits described in Figure 1.1, Figure 1.2, and Figure 1.3 were physically tested using an oscilloscope, digital multimeter, and a function generator. First, the 1 k&Omega; resistor and the 10 k&Omega; resistor were measured for resistance using the digital multimeter. The 1 k&Omega; resistor utilized for this experiment measured to 1.080 k&Omega;. The 10 k&Omega; resistor measured to 9.95 k&Omega;.
+During the experiment, the circuits described in Figure 1.1, Figure 1.2, and Figure 1.3 were physically tested using an oscilloscope, digital multimeter, and a function generator. First, the 1 kOhms resistor and the 10 kOhms resistor were measured for resistance using the digital multimeter. The 1 kOhms resistor utilized for this experiment measured to 1.080 kOhms. The 10 kOhms resistor measured to 9.95 kOhms.
 
-Next, the function generator was calibrated by connecting the function generator to the oscilloscope. The function generator was calibrated to match the following equation: `Vin = 1 V + (2V)sin(2*\pi*f*t)`. This is the equation provided in Exercise 1 of the pre-lab analysis. Utilizing the measure function on the oscilloscope, the signal's frequency measured `10.04 k&Omega;`. The peak-to-peak measurement was `2.00 V`. The offset voltage was `1.05 V`.
+Next, the function generator was calibrated by connecting the function generator to the oscilloscope. The function generator was calibrated to match the following equation: `Vin = 1 V + (2V)sin(2*pi*f*t)`. This is the equation provided in Exercise 1 of the pre-lab analysis. Utilizing the measure function on the oscilloscope, the signal's frequency measured 10.04 kOhms. The peak-to-peak measurement was 2.00 V. The offset voltage was 1.05 V.
 
 When adjusting the Seconds/Div and Volts/Div knobs to set the oscilloscope to 50 kS/s and 10 dB per division, the magnitude spectrum graph matched the expectations set forth during the pre-lab analysis. The graph contained a spike at 0 Hz and 10<sup>7</sup> Hz. The only difference between our expectations and the results would be many small spikes along the x-axis of the graph and a third peak. This graph can be seen below.
 
@@ -61,7 +61,7 @@ Afterward, the experiment introduced a breadboard to connect the two resistors p
 
 **Figure 3: Voltage Divider Measurements**  
 
-For Channel 1 (Vin), the peak-to-peak voltage was `2.16 V` and the offset was `1.84 V`. For Channel 2 (Vout), the peak-to-peak voltage was `1.52 V` and the offset was `1.55 V`. These values match the values presented in the pre-lab with a slight variation likely caused by the resistors not measuring exactly as they are labeled.
+For Channel 1 (Vin), the peak-to-peak voltage was 2.16 V and the offset was 1.84 V. For Channel 2 (Vout), the peak-to-peak voltage was 1.52 V and the offset was 1.55 V. These values match the values presented in the pre-lab with a slight variation likely caused by the resistors not measuring exactly as they are labeled.
 
 The remainder of the experiment involved assembling Figure 1.2 then Figure 1.3 on the breadboard to measure the cutoff frequency. During this process, the input frequency was set to 1 kHz. For Figure 1.2, the cutoff frequency according to the pre-lab analysis is about 15.92 kHz. The oscilloscope measured a cutoff frequency of 15.88 kHz. The graph outputted by the oscilloscope can be seen below.
 
@@ -97,8 +97,8 @@ This lab consisted of analyzing a voltage divider, low-pass filter, and a high-p
 ### Appendix B: List of Components and Materials  
 | Components and Materials | Description |
 | ------------------------ | :---------: |
-| Resistor(s): | 10 k&Omega; (1) |
-|  | 1k&Omega; (1) |
+| Resistor(s): | 10 kOhm (1) |
+|  | 1kOhm (1) |
 | Capacitor(s): | 1 nF (1) |
 | Breadboard | Solderless Breadboard (1) |
 
@@ -135,6 +135,7 @@ This lab consisted of analyzing a voltage divider, low-pass filter, and a high-p
 **Figure 1.2.1: Vout Transient Simulation**  
 
 <img src="./pictures/magnitude_circuit2.png" alt="Figure 1.2.2" height="400" width="400"/>  
+
 **Figure 1.2.2: Magnitude Spectrum**  
 
 <img src="./pictures/phase_circuit2.png" alt="Figure 1.2.3" height="400" width="400"/>  
@@ -142,7 +143,8 @@ This lab consisted of analyzing a voltage divider, low-pass filter, and a high-p
 **Figure 1.2.3: Phase Shift**  
 
 ### Appendix G: Figure 1.3 SPICE Simulation Graphs  
-<img src="./pictures/tran_circuit3.png" alt="Figure 1.3.1" height="400" width="400"/>  
+<img src="./pictures/tran_circuit3.png" alt="Figure 1.3.1" height="400" width="400"/> 
+
 **Figure 1.3.1: Vout Transient Simulation**  
 
 <img src="./pictures/magnitude_circuit3.png" alt="Figure 1.3.2" height="400" width="400"/>  
