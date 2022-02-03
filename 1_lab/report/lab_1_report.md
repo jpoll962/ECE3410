@@ -3,12 +3,15 @@
 This lab prepares materials needed for the semesters' lab assignments, reviews techniques/procedures required for professional laboratory work, and provides experience using a function generator, power supply, oscilloscope, and multimeter. Each resistor utilized in this lab was analyzed to determine the precise resistance each provided. These measurements demonstrated that each resistor did not contain the exact resistance advertized along the resistors' bodies. Afterward, the function generator was utilized alongside the oscilloscope to demonstrate how the changes in the function generator impact the output displayed on the oscilloscope. The oscilloscope displayed the sine wave and the magnitude spectrum input by the function generator. This measurement process continued throughout the experiment to measure Figure 1.1, Figure 1.2, and Figure 1.3, as seen below.  
 
 <img src="./pictures/figure_1.1.png" alt="Figure 1.1" height="250" width="400"/>  
-**Figure 1.1**  
+
+**Figure 1.1: Voltage Divider**  
  
 <img src="./pictures/figure_1.2.png" alt="Figure 1.2" height="250" width="400"/>  
+
 **Figure 1.2: Low Pass Filter**  
   
 <img src="./pictures/figure_1.3.png" alt="Figure 1.3" height="250" width="400"/>  
+
 **Figure 1.3: High Pass Filter**  
 
 The Pre-Lab Analysis performed before the experiment aligned with the experiment, aside from slight differences discussed in the body of this report. A Spice simulation was also performed on Figure 1.1, Figure 1.2, and Figure 1.3. The list of equipment utilized during this lab can be found in Appendix A at the bottom of this report. The list of components and materials utilized during this lab can be found in Appendix B at the bottom of this report.  
@@ -30,10 +33,54 @@ When running NGSpice in the command line for circuit 2 (Figure 1.2), the values 
 When running NGSpice in the command line for circuit 3 (Figure 1.3), the values returned by the terminal can be found in Appendix D below. These values match directly with the pre-lab analysis results.  
 
 ## Experimental Results  
-Here’s the part where you place your actual measurements. If you choose to discuss experiment X, then provide quantitative data resulting from the experiment, and compare those results to the predictions made in pre-lab analysis and simulation.
+During the experiment, the circuits described in Figure 1.1, Figure 1.2, and Figure 1.3 were physically tested using an oscilloscope, digital multimeter, and a function generator. First, the 1 k&Omega; resistor and the 10 k&Omega; resistor were measured for resistance using the digital multimeter. The 1 k&Omega; resistor utilized for this experiment measured to 1.080 k&Omega;. The 10 k&Omega; resistor measured to 9.95 k&Omega;.
+
+Next, the function generator was calibrated by connecting the function generator to the oscilloscope. The function generator was calibrated to match the following equation: `Vin = 1 V + (2V)sin(2*\pi*f*t)`. This is the equation provided in Exercise 1 of the pre-lab analysis. Utilizing the measure function on the oscilloscope, the signal's frequency measured `10.04 k&Omega;`. The peak-to-peak measurement was `2.00 V`. The offset voltage was `1.05 V`.
+
+When adjusting the Seconds/Div and Volts/Div knobs to set the oscilloscope to 50 kS/s and 10 dB per division, the magnitude spectrum graph matched the expectations set forth during the pre-lab analysis. The graph contained a spike at 0 Hz and 10<sup>7</sup> Hz. The only difference between our expectations and the results would be many small spikes along the x-axis of the graph and a third peak. This graph can be seen below.
+
+<img src="./pictures/3_sine_wave.jpg" alt="Figure 2.1" height="250" width="400"/>  
+
+**Figure 2.1: Magnitude Spectrum - Sine Wave**  
+
+Afterward, we set the function generator's signal type to a square wave to observe changes in the graph. The square wave amplified the third peak and rounded out the spikes along the x-axis. The square wave graph can be seen below.
+
+<img src="./pictures/3_square_wave.jpg" alt="Figure 2.2" height="250" width="400"/>  
+
+**Figure 2.2: Magnitude Spectrum - Square Wave**  
+
+The next step required changing the signal type again. This time the signal type was set to a triangle wave. The triangle wave graph resembled the square wave graph, aside from the third impulse spike being larger with the triangle wave setting. The triangle wave graph can be seen below.
+
+<img src="./pictures/3_triangle_wave.jpg" alt="Figure 2.3" height="250" width="400"/>  
+
+**Figure 2.3: Magnitude Spectrum - Triangle Wave**  
+
+Afterward, the experiment introduced a breadboard to connect the two resistors previously measured as depicted in Figure 1.1. The breadboard connected to the function generator for input and the oscilloscope to measure the output. After adjusting the channels to display 1 V per division and positioning the signals to match their reference points, the following graph and measurements were produced.
+
+<img src="./pictures/4_measurements.jpg" alt="Figure 3" height="250" width="400"/>  
+
+**Figure 3: Voltage Divider Measurements**  
+
+For Channel 1 (Vin), the peak-to-peak voltage was `2.16 V` and the offset was `1.84 V`. For Channel 2 (Vout), the peak-to-peak voltage was `1.52 V` and the offset was `1.55 V`. These values match the values presented in the pre-lab with a slight variation likely caused by the resistors not measuring exactly as they are labeled.
+
+The remainder of the experiment involved assembling Figure 1.2 then Figure 1.3 on the breadboard to measure the cutoff frequency. During this process, the input frequency was set to 1 kHz. For Figure 1.2, the cutoff frequency according to the pre-lab analysis is about 15.92 kHz. The oscilloscope measured a cutoff frequency of 15.88 kHz. The graph outputted by the oscilloscope can be seen below.
+
+<img src="./pictures/5_cutoff_frequency.jpg" alt="Figure 4" height="250" width="400"/>  
+
+**Figure 4: Low-Pass Filter Cutoff Frequency**  
+
+For Figure 1.3, the cutoff frequency according to the pre-lab analysis is about 15.92 kHz. The oscilloscope measured a cutoff frequency of 15.98 kHz. The graph outputted by the oscilloscope can be seen below.
+
+<img src="./pictures/6_cutoff_frequency.jpg" alt="Figure 5" height="250" width="400"/>  
+
+**Figure 5: High-Pass Filter Cutoff Frequency**  
+
+A plausible explanation to the discrepancy in the measurements from the pre-lab analysis compared to the oscilloscope output results from the physical resistor's resistance being different than the resistance utilized in the paper measurements. In addition, this experiment did not allow for measuring the capacitance of the capacitor. This results in unknown information in our data.
+
+In the end, the phenomenon of aliasing was introduced by utilizing the oscilloscope. As the frequency was increased, the measurement would eventually repeat on the graph. This may affect future lab experiments as apparent frequency being lower than the actual frequency could result in a misinterpretation of the data.
 
 ## Conclusions  
-In this section, provide a summary and interpretation of your results. If your experimental results did not match your predictions, then offer plausible hypotheses to explain the discrepancy. If your results point toward a grand conclusion or generalization, state it here. Explain your results with reference to the stated objectives of the lab. Were there any noteworthy or unusual observations that arose from the experiments? Did your results match theoretical expectations? If not, give reasonable hypotheses as to what might have gone wrong. Support your hypotheses with plausible arguments.
+This lab consisted of analyzing a voltage divider, low-pass filter, and a high-pass filter. Generally, the measured results from the pre-lab matched the output produced during the experiment section. The times when an unexpected measurement occurred, it was due to the real-world measurements of resistors and capacitors being different than the virtual calculations. The grand conclusion of this lab points to the fact that the mathematical formulas provided in textbooks can only be used as approximations because the real-world is rarely as perfect as it is on paper.
 
 ## Appendix: Data Tables  
 ### Appendix A: List of Equipment  
@@ -75,19 +122,23 @@ In this section, provide a summary and interpretation of your results. If your e
 
 ### Appendix E: Figure 1.1 SPICE Simulation Graphs  
 <img src="./pictures/circuit1_dc.png" alt="Figure 1.1.1" height="400" width="400"/>  
+
 **Figure 1.1.1: Vout DC Simulation**  
 
 <img src="./pictures/circuit1_tran.png" alt="Figure 1.1.2" height="400" width="400"/>  
+
 **Figure 1.1.2: Vout Transient Simulation**  
 
 ### Appendix F: Figure 1.2 SPICE Simulation Graphs  
 <img src="./pictures/tran_circuit2.png" alt="Figure 1.2.1" height="400" width="400"/>  
+
 **Figure 1.2.1: Vout Transient Simulation**  
 
 <img src="./pictures/magnitude_circuit2.png" alt="Figure 1.2.2" height="400" width="400"/>  
 **Figure 1.2.2: Magnitude Spectrum**  
 
 <img src="./pictures/phase_circuit2.png" alt="Figure 1.2.3" height="400" width="400"/>  
+
 **Figure 1.2.3: Phase Shift**  
 
 ### Appendix G: Figure 1.3 SPICE Simulation Graphs  
@@ -95,7 +146,9 @@ In this section, provide a summary and interpretation of your results. If your e
 **Figure 1.3.1: Vout Transient Simulation**  
 
 <img src="./pictures/magnitude_circuit3.png" alt="Figure 1.3.2" height="400" width="400"/>  
+
 **Figure 1.3.2: Magnitude Spectrum**  
 
 <img src="./pictures/phase_circuit3.png" alt="Figure 1.3.3" height="400" width="400"/>  
+
 **Figure 1.3.3: Phase Shift**  
