@@ -2,16 +2,13 @@
 ## Introduction  
 This lab prepares materials needed for the semesters' lab assignments, reviews techniques/procedures required for professional laboratory work, and provides experience using a function generator, power supply, oscilloscope, and multimeter. Each resistor utilized in this lab was analyzed to determine the precise resistance each provided. These measurements demonstrated that each resistor did not contain the exact resistance advertized along the resistors' bodies. Afterward, the function generator was utilized alongside the oscilloscope to demonstrate how the changes in the function generator impact the output displayed on the oscilloscope. The oscilloscope displayed the sine wave and the magnitude spectrum input by the function generator. This measurement process continued throughout the experiment to measure Figure 1.1, Figure 1.2, and Figure 1.3, as seen below.  
 
-<img src="./pictures/figure_1.1.png" alt="Figure 1.1" height="250" width="400"/>  
-
+![Figure 1.1: Voltage Divider](./pictures/figure_1.1.png "Figure 1.1: Voltage Divider")
 **Figure 1.1: Voltage Divider**  
  
-<img src="./pictures/figure_1.2.png" alt="Figure 1.2" height="250" width="400"/>  
-
-**Figure 1.2: Low Pass Filter**  
+![Figure 1.2: Low-Pass Filter](./pictures/figure_1.2.png "Figure 1.2: Low-Pass Filter")
+**Figure 1.2: Low-Pass Filter**  
   
-<img src="./pictures/figure_1.3.png" alt="Figure 1.3" height="250" width="400"/>  
-
+![Figure 1.3: High-Pass Filter](./pictures/figure_1.3.png "Figure 1.3: High-Pass Filter")
 **Figure 1.3: High Pass Filter**  
 
 The Pre-Lab Analysis performed before the experiment aligned with the experiment, aside from slight differences discussed in the body of this report. A Spice simulation was also performed on Figure 1.1, Figure 1.2, and Figure 1.3. The list of equipment utilized during this lab can be found in Appendix A at the bottom of this report. The list of components and materials utilized during this lab can be found in Appendix B at the bottom of this report.  
@@ -39,40 +36,34 @@ Next, the function generator was calibrated by connecting the function generator
 
 When adjusting the Seconds/Div and Volts/Div knobs to set the oscilloscope to 50 kS/s and 10 dB per division, the magnitude spectrum graph matched the expectations set forth during the pre-lab analysis. The graph contained a spike at 0 Hz and 10<sup>7</sup> Hz. The only difference between our expectations and the results would be many small spikes along the x-axis of the graph and a third peak. This graph can be seen below.
 
-<img src="./pictures/3_sine_wave.jpg" alt="Figure 2.1" height="250" width="400"/>  
-
+![Figure 2.1: Magnitude Spectrum - Sine Wave](./pictures/3_sine_wave.jpg "Figure 2.1: Magnitude Spectrum - Sine Wave")
 **Figure 2.1: Magnitude Spectrum - Sine Wave**  
 
 Afterward, we set the function generator's signal type to a square wave to observe changes in the graph. The square wave amplified the third peak and rounded out the spikes along the x-axis. The square wave graph can be seen below.
 
-<img src="./pictures/3_square_wave.jpg" alt="Figure 2.2" height="250" width="400"/>  
-
+![Figure 2.2: Magnitude Spectrum - Square Wave](./pictures/3_square_wave.jpg "Figure 2.2: Magnitude Spectrum - Square Wave")
 **Figure 2.2: Magnitude Spectrum - Square Wave**  
 
 The next step required changing the signal type again. This time the signal type was set to a triangle wave. The triangle wave graph resembled the square wave graph, aside from the third impulse spike being larger with the triangle wave setting. The triangle wave graph can be seen below.
 
-<img src="./pictures/3_triangle_wave.jpg" alt="Figure 2.3" height="250" width="400"/>  
-
+![Figure 2.3: Magnitude Spectrum - Triangle Wave](./pictures/3_triangle_wave.jpg "Figure 2.3: Magnitude Spectrum - Triangle Wave")
 **Figure 2.3: Magnitude Spectrum - Triangle Wave**  
 
 Afterward, the experiment introduced a breadboard to connect the two resistors previously measured as depicted in Figure 1.1. The breadboard connected to the function generator for input and the oscilloscope to measure the output. After adjusting the channels to display 1 V per division and positioning the signals to match their reference points, the following graph and measurements were produced.
 
-<img src="./pictures/4_measurements.jpg" alt="Figure 3" height="250" width="400"/>  
-
+![Figure 3: Voltage Divider Measurements](./pictures/4_measurements.jpg "Figure 3: Voltage Divider Measurements")
 **Figure 3: Voltage Divider Measurements**  
 
 For Channel 1 (Vin), the peak-to-peak voltage was 2.16 V and the offset was 1.84 V. For Channel 2 (Vout), the peak-to-peak voltage was 1.52 V and the offset was 1.55 V. These values match the values presented in the pre-lab with a slight variation likely caused by the resistors not measuring exactly as they are labeled.
 
 The remainder of the experiment involved assembling Figure 1.2 then Figure 1.3 on the breadboard to measure the cutoff frequency. During this process, the input frequency was set to 1 kHz. For Figure 1.2, the cutoff frequency according to the pre-lab analysis is about 15.92 kHz. The oscilloscope measured a cutoff frequency of 15.88 kHz. The graph outputted by the oscilloscope can be seen below.
 
-<img src="./pictures/5_cutoff_frequency.jpg" alt="Figure 4" height="250" width="400"/>  
-
+![Figure 4: Low-Pass Filter Cutoff Frequency](./pictures/5_cutoff_frequency.jpg "Figure 4: Low-Pass Filter Cutoff Frequency")
 **Figure 4: Low-Pass Filter Cutoff Frequency**  
 
 For Figure 1.3, the cutoff frequency according to the pre-lab analysis is about 15.92 kHz. The oscilloscope measured a cutoff frequency of 15.98 kHz. The graph outputted by the oscilloscope can be seen below.
 
-<img src="./pictures/6_cutoff_frequency.jpg" alt="Figure 5" height="250" width="400"/>  
-
+![Figure 5: High-Pass Filter Cutoff Frequency](./pictures/6_cutoff_frequency.jpg "Figure 5: High-Pass Filter Cutoff Frequency")
 **Figure 5: High-Pass Filter Cutoff Frequency**  
 
 A plausible explanation to the discrepancy in the measurements from the pre-lab analysis compared to the oscilloscope output results from the physical resistor's resistance being different than the resistance utilized in the paper measurements. In addition, this experiment did not allow for measuring the capacitance of the capacitor. This results in unknown information in our data.
@@ -121,36 +112,28 @@ This lab consisted of analyzing a voltage divider, low-pass filter, and a high-p
 | p3db | 4.491032e+01 degrees |
 
 ### Appendix E: Figure 1.1 SPICE Simulation Graphs  
-<img src="./pictures/circuit1_dc.png" alt="Figure 1.1.1" height="400" width="400"/>  
-
+![Figure 1.1.1: Vout DC Simulation](./pictures/circuit1_dc.png "Figure 1.1.1: Vout DC Simulation")
 **Figure 1.1.1: Vout DC Simulation**  
 
-<img src="./pictures/circuit1_tran.png" alt="Figure 1.1.2" height="400" width="400"/>  
-
+![Figure 1.1.2: Vout Transient Simulation](./pictures/circuit1_tran.png "Figure 1.1.2: Vout Transient Simulation")
 **Figure 1.1.2: Vout Transient Simulation**  
 
 ### Appendix F: Figure 1.2 SPICE Simulation Graphs  
-<img src="./pictures/tran_circuit2.png" alt="Figure 1.2.1" height="400" width="400"/>  
-
+![Figure 1.2.1: Vout Transient Simulation](./pictures/tran_circuit2.png "Figure 1.2.1: Vout Transient Simulation")
 **Figure 1.2.1: Vout Transient Simulation**  
 
-<img src="./pictures/magnitude_circuit2.png" alt="Figure 1.2.2" height="400" width="400"/>  
-
+![Figure 1.2.2: Magnitude Spectrum](./pictures/magnitude_circuit2.png "Figure 1.2.2: Magnitude Spectrum")
 **Figure 1.2.2: Magnitude Spectrum**  
 
-<img src="./pictures/phase_circuit2.png" alt="Figure 1.2.3" height="400" width="400"/>  
-
+![Figure 1.2.3: Phase Shift](./pictures/phase_circuit2.png "Figure 1.2.3: Phase Shift")
 **Figure 1.2.3: Phase Shift**  
 
 ### Appendix G: Figure 1.3 SPICE Simulation Graphs  
-<img src="./pictures/tran_circuit3.png" alt="Figure 1.3.1" height="400" width="400"/> 
-
+![Figure 1.3.1: Vout Transient Simulation](./pictures/tran_circuit3.png "Figure 1.3.1: Vout Transient Simulation")
 **Figure 1.3.1: Vout Transient Simulation**  
 
-<img src="./pictures/magnitude_circuit3.png" alt="Figure 1.3.2" height="400" width="400"/>  
-
+![Figure 1.3.2: Magnitude Spectrum](./pictures/magnitude_circuit3.png "Figure 1.3.2: Magnitude Spectrum")
 **Figure 1.3.2: Magnitude Spectrum**  
 
-<img src="./pictures/phase_circuit3.png" alt="Figure 1.3.3" height="400" width="400"/>  
-
+![Figure 1.3.3: Phase Shift](./pictures/phase_circuit3.png "Figure 1.3.3: Phase Shift")
 **Figure 1.3.3: Phase Shift**  
