@@ -4,7 +4,7 @@ Lab 2, Exercise 1, ECE 3410
 ***************************
 
 * Include the model file:
-.include ../lab_parts.md
+.include ../../lab_parts.md
 
 * Power supplies:
 VDD ndd 0 DC 15V
@@ -15,9 +15,9 @@ V1 n1 0 DC 1V
 V2 n2 0 DC 5V
 
 * Resistors
-R1 n1 nn   *** YOUR VALUE
-R2 n2 nn   *** YOUR VALUE
-RF nn nout *** YOUR VALUE
+R1 n1 nn 10k
+R2 n2 nn 5k
+RF nn nout 10k
 
 * Op Amp Model
 X1 0 nn ndd nss nout uA741
@@ -34,7 +34,7 @@ alter V2 DC 0V
 
 dc V1 1V 2V 0.05V
 plot v(nout)
-
+hardcopy circuit1_vnout.ps v(nout)
 echo "Results for Part B:"
 
 * Print out specific data points:

@@ -1,0 +1,392 @@
+***************** Exercise 1: *****************
+Circuit: lab 2, exercise 1, ece 3410
+
+Reducing trtol to 1 for xspice 'A' devices
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+No. of Data Rows : 1
+a$poly$e.x1.egnd#branch_1_0 = 1.099852e-03
+h.x1.hlim#branch = 2.200018e-12
+n1 = 1.000000e+00
+n2 = 5.000000e+00
+ndd = 1.500000e+01
+nn = 7.529493e-05
+nout = -1.09989e+01
+nss = -1.50000e+01
+v.x1.vb#branch = 1.054484e-08
+v.x1.vc#branch = 2.499970e-11
+v.x1.ve#branch = 3.002344e-12
+v.x1.vlim#branch = -1.09990e-03
+v.x1.vln#branch = -3.89037e-11
+v.x1.vlp#branch = -4.11007e-11
+v1#branch = -9.99925e-05
+v2#branch = -9.99985e-04
+vdd#branch = -1.66694e-03
+vss#branch = 1.667142e-03
+x1.6 = 1.054484e-03
+x1.7 = -1.10539e+01
+x1.8 = -1.10539e+01
+x1.9 = 0.000000e+00
+x1.10 = -6.07651e-01
+x1.11 = 1.496030e+01
+x1.12 = 1.496037e+01
+x1.13 = -5.93763e-01
+x1.14 = -5.93789e-01
+x1.53 = 1.400000e+01
+x1.54 = -1.40000e+01
+x1.90 = -1.09990e+00
+x1.91 = 4.000000e+01
+x1.92 = -4.00000e+01
+x1.99 = 0.000000e+00
+Result for Part A:
+v(nout) = -1.09989e+01
+Reducing trtol to 1 for xspice 'A' devices
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+No. of Data Rows : 21
+
+The file "circuit1_vnout.ps" may be printed on a postscript printer.
+Results for Part B:
+vo1                 =  -9.991050e-01
+vo2                 =  -1.249100e+00
+vo3                 =  -1.499095e+00
+vo4                 =  -1.749090e+00
+vo5                 =  -1.999085e+00
+The measured gain is -0.99998
+
+***************** Exercise 2: *****************
+Circuit: lab 2, exercise 2, ece 3410
+
+Reducing trtol to 1 for xspice 'A' devices
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+ndd                                         15
+nss                                        -15
+n1                                           1
+n2                                         0.5
+nn                                 2.43431e-05
+n3                                 2.43431e-05
+nout                                 -0.999154
+x1.11                                  14.9603
+x1.12                                  14.9603
+x1.6                               9.57904e-05
+x1.7                                  -1.00415
+x1.53                                       14
+x1.54                                      -14
+x1.90                               -0.0999178
+x1.91                                       40
+x1.92                                      -40
+x1.99                                        0
+x1.10                                -0.607676
+x1.13                                -0.593797
+x1.14                                -0.593806
+x1.9                                         0
+x1.8                                  -1.00415
+h.x1.hlim#branch                   1.99826e-13
+v.x1.vlim#branch                  -9.99178e-05
+v.x1.vln#branch                   -3.99036e-11
+v.x1.vlp#branch                   -4.01007e-11
+v.x1.ve#branch                     1.30021e-11
+v.x1.vc#branch                         1.5e-11
+v.x1.vb#branch                     9.57904e-10
+v2#branch                                    0
+v1#branch                         -9.99976e-05
+vss#branch                          0.00166714
+vdd#branch                         -0.00166694
+a$poly$e.x1.egnd#branch_1_0        9.98717e-05
+
+
+No. of Data Rows : 129
+
+The file "circuit2_vn2.ps" may be printed on a postscript printer.
+
+The file "circuit2_vnout.ps" may be printed on a postscript printer.
+ofs1                =  -9.725750e-01 from=  0.000000e+00 to=  1.000000e-04
+Reducing trtol to 1 for xspice 'A' devices
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+ndd                                         15
+nss                                        -15
+n1                                           1
+n2                                           1
+nn                                 2.43431e-05
+n3                                 2.43431e-05
+nout                                 -0.999154
+x1.11                                  14.9603
+x1.12                                  14.9603
+x1.6                               9.57904e-05
+x1.7                                  -1.00415
+x1.53                                       14
+x1.54                                      -14
+x1.90                               -0.0999178
+x1.91                                       40
+x1.92                                      -40
+x1.99                                        0
+x1.10                                -0.607676
+x1.13                                -0.593797
+x1.14                                -0.593806
+x1.9                                         0
+x1.8                                  -1.00415
+h.x1.hlim#branch                   1.99826e-13
+v.x1.vlim#branch                  -9.99178e-05
+v.x1.vln#branch                   -3.99036e-11
+v.x1.vlp#branch                   -4.01007e-11
+v.x1.ve#branch                     1.30021e-11
+v.x1.vc#branch                         1.5e-11
+v.x1.vb#branch                     9.57904e-10
+v2#branch                                    0
+v1#branch                         -9.99976e-05
+vss#branch                          0.00166714
+vdd#branch                         -0.00166694
+a$poly$e.x1.egnd#branch_1_0        9.98717e-05
+
+
+No. of Data Rows : 129
+
+The file "circuit2_vn2.ps" may be printed on a postscript printer.
+
+The file "circuit2_vnout.ps" may be printed on a postscript printer.
+ofs1                =  -9.725750e-01 from=  0.000000e+00 to=  1.000000e-04
+Reducing trtol to 1 for xspice 'A' devices
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+ndd                                         15
+nss                                        -15
+n1                                           1
+n2                                         1.5
+nn                                 2.43431e-05
+n3                                 2.43431e-05
+nout                                 -0.999154
+x1.11                                  14.9603
+x1.12                                  14.9603
+x1.6                               9.57904e-05
+x1.7                                  -1.00415
+x1.53                                       14
+x1.54                                      -14
+x1.90                               -0.0999178
+x1.91                                       40
+x1.92                                      -40
+x1.99                                        0
+x1.10                                -0.607676
+x1.13                                -0.593797
+x1.14                                -0.593806
+x1.9                                         0
+x1.8                                  -1.00415
+h.x1.hlim#branch                   1.99826e-13
+v.x1.vlim#branch                  -9.99178e-05
+v.x1.vln#branch                   -3.99036e-11
+v.x1.vlp#branch                   -4.01007e-11
+v.x1.ve#branch                     1.30021e-11
+v.x1.vc#branch                         1.5e-11
+v.x1.vb#branch                     9.57904e-10
+v2#branch                                    0
+v1#branch                         -9.99976e-05
+vss#branch                          0.00166714
+vdd#branch                         -0.00166694
+a$poly$e.x1.egnd#branch_1_0        9.98717e-05
+
+
+No. of Data Rows : 129
+
+The file "circuit2_vn2.ps" may be printed on a postscript printer.
+
+The file "circuit2_vnout.ps" may be printed on a postscript printer.
+ofs1                =  -9.725750e-01 from=  0.000000e+00 to=  1.000000e-04
+Reducing trtol to 1 for xspice 'A' devices
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+ndd                                         15
+nss                                        -15
+n1                                           2
+n2                                         0.5
+nn                                 2.94384e-05
+n3                                 2.94384e-05
+nout                                  -1.99914
+x1.11                                  14.9603
+x1.12                                  14.9603
+x1.6                               0.000191661
+x1.7                                  -2.00914
+x1.53                                       14
+x1.54                                      -14
+x1.90                                -0.199917
+x1.91                                       40
+x1.92                                      -40
+x1.99                                        0
+x1.10                                -0.607674
+x1.13                                -0.593794
+x1.14                                -0.593804
+x1.9                                         0
+x1.8                                  -2.00914
+h.x1.hlim#branch                   3.99847e-13
+v.x1.vlim#branch                  -0.000199917
+v.x1.vln#branch                   -3.98036e-11
+v.x1.vlp#branch                   -4.02007e-11
+v.x1.ve#branch                     1.20021e-11
+v.x1.vc#branch                     1.59999e-11
+v.x1.vb#branch                     1.91661e-09
+v2#branch                                    0
+v1#branch                         -0.000199997
+vss#branch                          0.00166714
+vdd#branch                         -0.00166694
+a$poly$e.x1.egnd#branch_1_0        0.000199871
+
+
+No. of Data Rows : 127
+
+The file "circuit2_vn2.ps" may be printed on a postscript printer.
+
+The file "circuit2_vnout.ps" may be printed on a postscript printer.
+ofs1                =  -1.972680e+00 from=  0.000000e+00 to=  1.000000e-04
+Reducing trtol to 1 for xspice 'A' devices
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+ndd                                         15
+nss                                        -15
+n1                                           2
+n2                                           1
+nn                                 2.94384e-05
+n3                                 2.94384e-05
+nout                                  -1.99914
+x1.11                                  14.9603
+x1.12                                  14.9603
+x1.6                               0.000191661
+x1.7                                  -2.00914
+x1.53                                       14
+x1.54                                      -14
+x1.90                                -0.199917
+x1.91                                       40
+x1.92                                      -40
+x1.99                                        0
+x1.10                                -0.607674
+x1.13                                -0.593794
+x1.14                                -0.593804
+x1.9                                         0
+x1.8                                  -2.00914
+h.x1.hlim#branch                   3.99847e-13
+v.x1.vlim#branch                  -0.000199917
+v.x1.vln#branch                   -3.98036e-11
+v.x1.vlp#branch                   -4.02007e-11
+v.x1.ve#branch                     1.20021e-11
+v.x1.vc#branch                     1.59999e-11
+v.x1.vb#branch                     1.91661e-09
+v2#branch                                    0
+v1#branch                         -0.000199997
+vss#branch                          0.00166714
+vdd#branch                         -0.00166694
+a$poly$e.x1.egnd#branch_1_0        0.000199871
+
+
+No. of Data Rows : 127
+
+The file "circuit2_vn2.ps" may be printed on a postscript printer.
+
+The file "circuit2_vnout.ps" may be printed on a postscript printer.
+ofs1                =  -1.972680e+00 from=  0.000000e+00 to=  1.000000e-04
+Reducing trtol to 1 for xspice 'A' devices
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+ndd                                         15
+nss                                        -15
+n1                                           2
+n2                                         1.5
+nn                                 2.94384e-05
+n3                                 2.94384e-05
+nout                                  -1.99914
+x1.11                                  14.9603
+x1.12                                  14.9603
+x1.6                               0.000191661
+x1.7                                  -2.00914
+x1.53                                       14
+x1.54                                      -14
+x1.90                                -0.199917
+x1.91                                       40
+x1.92                                      -40
+x1.99                                        0
+x1.10                                -0.607674
+x1.13                                -0.593794
+x1.14                                -0.593804
+x1.9                                         0
+x1.8                                  -2.00914
+h.x1.hlim#branch                   3.99847e-13
+v.x1.vlim#branch                  -0.000199917
+v.x1.vln#branch                   -3.98036e-11
+v.x1.vlp#branch                   -4.02007e-11
+v.x1.ve#branch                     1.20021e-11
+v.x1.vc#branch                     1.59999e-11
+v.x1.vb#branch                     1.91661e-09
+v2#branch                                    0
+v1#branch                         -0.000199997
+vss#branch                          0.00166714
+vdd#branch                         -0.00166694
+a$poly$e.x1.egnd#branch_1_0        0.000199871
+
+
+No. of Data Rows : 127
+
+The file "circuit2_vn2.ps" may be printed on a postscript printer.
+
+The file "circuit2_vnout.ps" may be printed on a postscript printer.
+ofs1                =  -1.972680e+00 from=  0.000000e+00 to=  1.000000e-04
+Reducing trtol to 1 for xspice 'A' devices
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+No. of Data Rows : 601
+
+The file "circuit2_vdbnout-vdbn2.ps" may be printed on a postscript printer.
+av0                 =  5.647445e+00
+a3db = 2.647445e+00
+fhigh               =  3.128876e+05
+flow                =  2.922087e+03
+ft                  =  1.834060e+03
+                                Constant values
+                                constants  Sun Oct 27 09:07:06 UTC 2019
+--------------------------------------------------------------------------------
+Index   ofs_1           ofs_2           ofs_out
+--------------------------------------------------------------------------------
+0       1.000000e+00    5.000000e-01    -9.72575e-01
+1       1.000000e+00    1.000000e+00    -9.72575e-01
+2       1.000000e+00    1.500000e+00    -9.72575e-01
+3       2.000000e+00    5.000000e-01    -1.97268e+00
+4       2.000000e+00    1.000000e+00    -1.97268e+00
+5       2.000000e+00    1.500000e+00    -1.97268e+00
+
+***************** Exercise 3: *****************
