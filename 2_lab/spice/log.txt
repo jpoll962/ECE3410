@@ -390,3 +390,51 @@ Index   ofs_1           ofs_2           ofs_out
 5       2.000000e+00    1.500000e+00    -1.97268e+00
 
 ***************** Exercise 3: *****************
+Circuit: lab 2, exercise 3, ece 3410
+
+rf is 10k
+Reducing trtol to 1 for xspice 'A' devices
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+No. of Data Rows : 71
+
+The file "circuit3_vnout1.ps" may be printed on a postscript printer.
+av0                 =  6.014969e+00
+a3db = 3.014969e+00
+fhigh               =  2.898497e+05
+flow                =  1.604432e+00
+ft                  =  4.873095e+05
+rf is 20k
+Reducing trtol to 1 for xspice 'A' devices
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+No. of Data Rows : 71
+
+The file "circuit3_vnout1.ps" may be printed on a postscript printer.
+av0                 =  1.202245e+01
+a3db = 9.022450e+00
+fhigh               =  1.550359e+05
+flow                =  1.598471e+00
+ft                  =  5.708640e+05
+rf is 40k
+Reducing trtol to 1 for xspice 'A' devices
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+No. of Data Rows : 71
+
+The file "circuit3_vnout1.ps" may be printed on a postscript printer.
+av0                 =  1.799355e+01
+a3db = 1.499355e+01
+fhigh               =  8.107437e+04
+flow                =  1.579173e+00
+ft                  =  6.016828e+05
+
+* In what ways do the simulations differ, and what features do they have in common?
+When comparing the three exercises, all three exercises simulate the output of a circuit
+that contains a minimum of one op-amp. Exercise 1 simulates a simple inverting summer op-amp
+to identify the gain and voltage output. Exercise 2 measures the DC offset of Vout while altering
+the input voltage. In Exercise 2 and Exercise 3, the simulation measures the low cutoff frequency,
+the high cutoff frequency, and the unity-gain frequency through an AC analysis.

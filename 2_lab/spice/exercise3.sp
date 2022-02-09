@@ -38,7 +38,7 @@ X2 nn2 nout2 ndd2 nss2 nout2 uA741
         echo rf is $rf_var
         alter rf $rf_var
         *----- AC SIMULATION -----*
-        ac dec 100 100 10Meg
+        ac dec 10 1 10Meg
 
         plot vdb(nout1)
         hardcopy circuit3_vnout1.ps vdb(nout1)

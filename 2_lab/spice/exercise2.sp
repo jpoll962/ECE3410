@@ -65,7 +65,6 @@ Lab 2, Exercise 2, ECE 3410
                 let idx=idx+1
             end
         end
-        *----- END OF LOOP ----*
 
         *----- AC SIMULATION -----*
         ac dec 100 1 1e6
