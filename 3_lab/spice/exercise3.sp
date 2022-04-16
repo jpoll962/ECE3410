@@ -5,7 +5,7 @@ Lab 4, Exercise 3, ECE 3410
 ***************************
 
 * Include the model file:
-.include ../lab_parts.md
+.include ../../lab_parts.md
 
 * Voltage Inputs
 V1 n1 0 DC 0V SIN(0 2V 1k)

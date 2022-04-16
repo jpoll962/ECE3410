@@ -1,0 +1,336 @@
+Exercise 1a:
+----------------------------------------------------------------------
+Circuit: lab 4, exercise 1(a), ece 3410
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: d1n914: junction potential VJ too large, limited to 2.000000
+Warning: d1n914: junction potential VJ too large, limited to 2.000000
+
+No. of Data Rows : 1
+v(n1) = 3.000000e+00
+v(n2) = 2.000000e+00
+v(nout) = 2.469730e+00
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: d1n914: junction potential VJ too large, limited to 2.000000
+Warning: d1n914: junction potential VJ too large, limited to 2.000000
+
+No. of Data Rows : 1
+v(n1) = 3.000000e+00
+v(n2) = 2.800000e+00
+v(nout) = 2.470746e+00
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: d1n914: junction potential VJ too large, limited to 2.000000
+Warning: d1n914: junction potential VJ too large, limited to 2.000000
+
+No. of Data Rows : 1
+v(n1) = 3.000000e+00
+v(n2) = 3.200000e+00
+v(nout) = 2.666793e+00
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: d1n914: junction potential VJ too large, limited to 2.000000
+Warning: d1n914: junction potential VJ too large, limited to 2.000000
+
+No. of Data Rows : 1
+v(n1) = 3.000000e+00
+v(n2) = 4.000000e+00
+v(nout) = 3.452358e+00
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: d1n914: junction potential VJ too large, limited to 2.000000
+Warning: d1n914: junction potential VJ too large, limited to 2.000000
+
+No. of Data Rows : 61
+vdmin               =  -5.713672e-01 at=  6.000000e+00
+
+Exercise 1b:
+----------------------------------------------------------------------
+Circuit: lab 4, exercise 1(b), ece 3410
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: d1n914: junction potential VJ too large, limited to 2.000000
+Warning: d1n914: junction potential VJ too large, limited to 2.000000
+
+No. of Data Rows : 1
+v(n1) = 3.000000e+00
+v(n2) = 2.000000e+00
+v(n3) = 5.000000e+00
+v(nout) = 2.026558e+00
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: d1n914: junction potential VJ too large, limited to 2.000000
+Warning: d1n914: junction potential VJ too large, limited to 2.000000
+
+No. of Data Rows : 1
+v(n1) = 3.000000e+00
+v(n2) = 2.800000e+00
+v(n3) = 5.000000e+00
+v(nout) = 2.825469e+00
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: d1n914: junction potential VJ too large, limited to 2.000000
+Warning: d1n914: junction potential VJ too large, limited to 2.000000
+
+No. of Data Rows : 1
+v(n1) = 3.000000e+00
+v(n2) = 3.200000e+00
+v(n3) = 5.000000e+00
+v(nout) = 3.025469e+00
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: d1n914: junction potential VJ too large, limited to 2.000000
+Warning: d1n914: junction potential VJ too large, limited to 2.000000
+
+No. of Data Rows : 1
+v(n1) = 3.000000e+00
+v(n2) = 4.000000e+00
+v(n3) = 5.000000e+00
+v(nout) = 3.028332e+00
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: d1n914: junction potential VJ too large, limited to 2.000000
+Warning: d1n914: junction potential VJ too large, limited to 2.000000
+
+No. of Data Rows : 61
+vdmin               =  -2.975948e+00 at=  6.000000e+00
+
+Exercise 2:
+----------------------------------------------------------------------
+Circuit: lab 4, exercise 2, ece 3410
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: d1n914: junction potential VJ too large, limited to 2.000000
+
+No. of Data Rows : 1
+n(n1) = 0.000000e+00
+v(nout) = -2.04557e-11
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: d1n914: junction potential VJ too large, limited to 2.000000
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+n1                                           0
+nout                              -2.04557e-11
+v1#branch                          2.04557e-15
+
+
+No. of Data Rows : 3008
+
+The file "halfwave.ps" may be printed on a postscript printer.
+vpeak               =  1.495614e+00 at=  2.502800e-04
+
+Exercise 3:
+----------------------------------------------------------------------
+Circuit: lab 4, exercise 3, ece 3410
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: d1n914: junction potential VJ too large, limited to 2.000000
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+n1                                           0
+nout                              -2.04557e-11
+v1#branch                          2.04557e-15
+
+
+No. of Data Rows : 5008
+Results at 1kHz:
+vpeak               =  1.495207e+00 at=  2.532800e-04
+vpp                 =  1.493326e+00 from=  3.000000e-03 to=  5.000000e-03
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: d1n914: junction potential VJ too large, limited to 2.000000
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+n1                                           0
+nout                              -2.04557e-11
+v1#branch                          2.04557e-15
+
+
+No. of Data Rows : 5008
+Results at 10kHz:
+vpeak               =  1.478367e+00 at=  1.271280e-04
+vpp                 =  8.126411e-01 from=  3.000000e-04 to=  5.000000e-04
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: d1n914: junction potential VJ too large, limited to 2.000000
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+n1                                           0
+nout                              -2.04557e-11
+v1#branch                          2.04557e-15
+
+
+No. of Data Rows : 5008
+Results at 100kHz:
+vpeak               =  1.402102e+00 at=  4.299280e-05
+vpp                 =  1.150713e-01 from=  3.000000e-05 to=  5.000000e-05
+
+
+
+
+Exercise 4:
+----------------------------------------------------------------------
+Circuit: lab 4, exercise 4, ece 3410
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: d1n914: junction potential VJ too large, limited to 2.000000
+Warning: d1n914: junction potential VJ too large, limited to 2.000000
+Warning: d1n914: junction potential VJ too large, limited to 2.000000
+Warning: d1n914: junction potential VJ too large, limited to 2.000000
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+n1                                           0
+nout                                6.0692e-21
+n2                                 3.17573e-19
+n3                                 1.27725e-18
+v1#branch                           6.0692e-25
+
+
+No. of Data Rows : 5008
+Results at 1kHz:
+vpeak               =  1.036758e+00 at=  1.250280e-03
+vtrough             =  -1.036758e+00 at=  7.502800e-04
+vpp                 =  2.073516e+00 from=  3.000000e-03 to=  5.000000e-03
+
+
+Exercise 5:
+----------------------------------------------------------------------
+Circuit: lab 4, exercise 5, ece 3410
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: d1n914: junction potential VJ too large, limited to 2.000000
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+n1                                           0
+nout                              -1.59413e-06
+v1#branch                                    0
+
+
+No. of Data Rows : 5008
+
+The file "clampedcap.ps" may be printed on a postscript printer.
+Results at 1kHz:
+vtrough             =  -5.144335e-01 at=  5.422800e-04
+vpp                 =  6.006540e+00 from=  3.000000e-03 to=  5.000000e-03
+
+Bridge Rectifier Exercise:
+----------------------------------------------------------------------
+Circuit: lab 4, supplemental exercise, ece 3410
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+2                                  9.87812e-20
+1                                  9.87812e-20
+3                                  9.28755e-29
+vin#branch                        -4.37906e-47
+
+
+No. of Data Rows : 208
+vpeak               =  8.496225e+00 at=  1.042800e-02
+
+Super-Diode Exercise:
+----------------------------------------------------------------------
+Circuit: lab 4, supplemental exercise, ece 3410
+
+Reducing trtol to 1 for xspice 'A' devices
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: d1n914: junction potential VJ too large, limited to 2.000000
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+nin                                          0
+nvdd                                        10
+nvss                                       -10
+x1.11                                  9.96032
+x1.12                                  9.96034
+x1.6                              -1.22747e-05
+x1.7                                  0.129962
+nx                                    0.129957
+x1.53                                        9
+x1.54                                       -9
+x1.90                              9.83662e-05
+x1.91                                       40
+x1.92                                      -40
+x1.99                                        0
+x1.10                                -0.607679
+nout                               1.85998e-05
+x1.13                                -0.593801
+x1.14                                -0.593808
+x1.9                                         0
+x1.8                                  0.129962
+h.x1.hlim#branch                  -1.96769e-16
+v.x1.vlim#branch                   9.83662e-08
+v.x1.vln#branch                   -4.00037e-11
+v.x1.vlp#branch                   -4.00007e-11
+v.x1.ve#branch                     9.13076e-12
+v.x1.vc#branch                     8.87084e-12
+v.x1.vb#branch                    -1.22747e-10
+vss#branch                          0.00111648
+vdd#branch                         -0.00111628
+vin#branch                        -7.97288e-08
+a$poly$e.x1.egnd#branch_1_0       -1.44437e-07
+
+
+No. of Data Rows : 676
+
+The file "sd1.ps" may be printed on a postscript printer.
+
+The file "sd2.ps" may be printed on a postscript printer.
+
+The file "sd3.ps" may be printed on a postscript printer.
+
+By increasing the frequency to 10kHz, the simulation demonstrates
+the op amp's inability to restore the value of Vx in high frequencies.
+
+
+Boost Converter Exercise:
+----------------------------------------------------------------------
+The circuit doesn't achieve the expected output of 16 V because the losses
+are simulated in the diode.
+
+When setting D=0.5 and increasing the tran end-time to 10 ms allows the 
+simulation to get much closer to the expected output voltage. The first run
+was off by about 2 V. Altering D allowed the simulation to get about
+0.5 V away from the expected output voltage.

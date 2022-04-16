@@ -1,5 +1,5 @@
 * Test diode forward drop
-.include ../lab_parts.md
+.include ../../lab_parts.md
 
 V1 n1 0  DC 1V
 D1 n1 n2 D1N914

@@ -5,7 +5,7 @@ Lab 4, Exercise 1(A), ECE 3410
 ***************************
 
 * Include the model file:
-.include ../lab_parts.md
+.include ../../lab_parts.md
 
 * Voltage Inputs
 V1 n1 0 DC 3V

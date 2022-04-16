@@ -1,7 +1,7 @@
-Lab 4, Exercise 4, ECE 3410
+Lab 4, Exercise 5, ECE 3410
 ***************************
-* By Chris Winstead
-* Limiter circuit
+* By Joe Pollock w/ documentation from Chris Winstead
+* DC Restoration Circuit
 ***************************
 
 * Include the model file:
@@ -11,14 +11,10 @@ Lab 4, Exercise 4, ECE 3410
 V1 n1 0 DC 0V SIN(0 3V 1k)
 
 * Diode
-D1 nout n2   D1N914
-D2 n2   0    D1N914
-D3 n3   nout D1N914
-D4 0    n3   D1N914
+D1 0    nout   D1N914
 
-* Resistor
-R1 n1 nout 10k
-
+* Capacitor
+C1 n1 nout 10n
 
 **************
 * ANALYSIS
@@ -26,10 +22,10 @@ R1 n1 nout 10k
 .control
 tran 1u 5m
 plot n(n1) v(nout)
+hardcopy clampedcap.ps n(n1) v(nout)
 
 * Measurements:
 echo Results at 1kHz:
-meas TRAN vpeak   MAX v(nout)
 meas TRAN vtrough MIN v(nout)
 meas TRAN vpp     PP  v(nout) FROM=3m TO=5m
 

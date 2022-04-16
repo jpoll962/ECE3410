@@ -5,11 +5,11 @@ Lab 4, Supplemental Exercise, ECE 3410
 ***************************
 
 * Include the model file:
-.include ../lab_parts.md
+.include ../../lab_parts.md
 
 * Switching parameters:
 .param T=200n
-.param D=0.75
+.param D=0.50
 
 * switch model:
 .model switch sw(Ron=25, Roff=100000, Vt=0.001, Vh=0.0001)
@@ -33,8 +33,10 @@ CL nout 0    10u
 S1 nx 0 nphi 0 switch
 
 .control
-tran 50u 5m
+tran 50u 10m
+meas TRAN vpeak   MAX v(nout)
 plot v(nout)
+hardcopy boost.ps v(nout)
 .endc
 .end
 
